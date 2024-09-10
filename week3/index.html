@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 3</title>
+</head>
+<body>
+    <!-- Code goes here -->
+    <h1>HTML form</h1>
+
+    <form action="/week3/success.html" method="get">
+        <div>
+            <label for="">Name:</label>
+            <input type="text" name="full name" id="full name" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="">Grad Year:</label>
+            <input 
+            type="range" 
+            name="graduation year" 
+            id="graduation year" 
+            min="2020" 
+            max="2030"
+            value="2025">
+        </div>
+        <div>
+            <label for="">Eye Color:</label>
+            <input type="color" name="eye color" id="eye color">
+        </div>
+        <div>
+            <label for="cansofspam">Cans of Spam in the Pantry</label>
+            <input type="number" name="cansofspam" id="cansofspam" required>
+        </div>
+        <div>
+            <label for="notes">Notes:</label>
+            <textarea name="notes" id="notes"></textarea>
+        </div>
+        <div>
+            <button type="submit">Add to List</button>
+        </div>
+    </form>
+</body>
+</html>
