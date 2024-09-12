@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 3 Day 2</title>
+</head>
+<body>
+    <!-- Code goes here -->
+     <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+        <!--Full Name  -->
+        <div>
+            <label for="fullname">Fullname:</label>
+            <input type="text" name="fullname" id="fullname" required>
+        </div>
+        <!-- Medical Info -->
+        
+            <fieldset>
+            <legend>Medical Info</legend>
+            <!--Blood Type  -->
+            <div>
+                <label for="bloodtype">Blood Type:</label>
+                <select name="bloodtype" id="bloodtype">
+                    <!-- Put your select options -->
+                    <option value="a positive">A+</option>
+                    <option value="a negative">A-</option>
+                    <option value="b positive">B+</option>
+                    <option value="b negative">B-</option>
+                    <option value="na positive">NA+</option>
+                    <option value="na negative">NA-</option>
+                    <option value="O positive">O+</option>
+                    <option value="0 negative">O-</option>
+                </select>
+            </div>
+            <!-- Height (Meters) -->
+            <div>
+                <label for="Height">Height (Meters):</label>
+                <input type="number" name="Height" id="Height" step=".01">
+            </div>
+            </fieldset>
+            <!-- Health Concerns -->
+            <fieldset>
+                <legend for="healthconcerns">Health Concerns:</legend>
+                <!-- missing limb -->
+                <div>
+                    <input type="checkbox" name="healthconcerns" value="Missing Limb">
+                    <label for="missinglimb">Missing Limb</label>
+                </div>
+                <!-- chicken pox -->
+                <div>
+                    <input type="checkbox" name="healthconcerns" value="Chicken Pox">
+                    <label for="chickenpox">Chicken Pox</label>
+                </div>
+                <!-- vampire bite -->
+                <div>
+                    <input type="checkbox" name="healthconcerns" value="Vampire Bite">
+                    <label for="vampirebite">Vampire Bite</label>
+                </div>
+                <!-- kyle syndrome -->
+                <div>
+                    <input type="checkbox" name="healthconcerns" value="Kyle Syndrome">
+                    <label for="kylesyndrome">Kyle Syndrome</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Description of Pain Level</legend>
+                <!-- pain level -->
+                <div>
+                    <input type="radio" name="painlevel" id="painlevel-extreme">
+                    <label for="painlevel-extreme">Extreme</label>
+                </div>
+                <div>
+                    <input type="radio" name="painlevel" id="painlevel-high">
+                    <label for="painlevel-high">High</label>
+                </div>
+                <div>
+                    <input type="radio" name="painlevel" id="painlevel-medium">
+                    <label for="painlevel-medium">Medium</label>
+                </div>
+                <div>
+                    <input type="radio" name="painlevel" id="painlevel-low">
+                    <label for="painlevel-low">Low</label>
+                </div>
+                <div></div>
+                    <input type="radio" name="painlevel" id="painlevel-none">
+                    <label for="painlevel-none">None</label>
+                </div>
+            </fieldset>
+        <!-- Submit -->
+        <div>
+            <input type="submit" value="Get Results"/>
+            <input type="reset" value="Cancel"/>
+        </div>
+    </form>
+</body>
+</html>
