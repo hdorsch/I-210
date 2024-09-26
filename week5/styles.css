@@ -1,0 +1,58 @@
+.box {
+    height: 100%;
+    width: 100%;
+    min-height: 50px;
+    background-color: grey;
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.red {
+    background-color: red;
+}
+
+nav {
+    background-color: lightblue;
+    display: flex;
+    /* flex direction can change flex */
+    flex-direction: row-reverse;
+    /* justify content moves elements horizontally */
+    justify-content: space-evenly;
+    /* align items moves vertically */
+    align-items: center;
+}
+
+footer {
+    background-color: lightblue;
+    display: flex;
+    /* flex direction can change flex */
+    flex-direction: column;
+    /* justify content moves elements horizontally */
+    justify-content: space-evenly;
+    /* align items moves vertically */
+    align-items: center;
+
+    flex-wrap: wrap;
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px 5px;
+    grid-template-rows: 50px 200px 100px 100px 200px;
+    
+}
+
+.col-3 {
+    grid-column: span 3;
+}
+
+.row-4 {
+    grid-row: span 4;
+}
+
+/* .row-gap {
+    row-gap: 40px;
+} */
