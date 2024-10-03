@@ -1,0 +1,54 @@
+#flexContainer {
+    display: flex;
+    height: 50px;
+    background-color: salmon;
+
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.link2 {
+    order: -1;
+}
+
+#flexMomma {
+    display: flex;
+    flex-direction: column;
+    background-color: slategrey;
+    min-height: 200px;
+
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.thirdItem {
+    order: 11;
+    background-color: red;
+    height: 300px;
+}
+
+#tryContainer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tryItem {
+    width: 500px;
+}
+
+.parent {
+    width: 400px;
+    background-color: brown;
+    color: white;
+    display: flex;
+}
+
+.child {
+    flex-grow: 1;
+}
+
+.child5 {
+    flex-grow: 3;
+}
