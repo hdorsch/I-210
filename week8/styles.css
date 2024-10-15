@@ -1,0 +1,13 @@
+#banner {
+    height: 200px;
+    width: 100%;
+    background-color: salmon;
+    background-image: repeating-conic-gradient(lightblue 0% 25%, slategrey 25% 50%);
+    background-size: 50px 50px;
+}
+
+#banner h1 {
+    align-self: center;
+    justify-content: center;
+}
+
