@@ -1,0 +1,55 @@
+nav {
+    height: 50px;
+    width: 100%;
+    background-color: aqua;
+}
+
+nav ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav .title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.showcase-container {
+    background-color: beige;
+    margin-bottom: 16px;
+}
+
+.showcase-container section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.showcase-container section img {
+    width: 200px;
+    border: 2px solid black;
+}
+
+.showcase-container p a button{
+    padding: 20px;
+    font-size: 14px;
+    background-color: aqua;
+    border-radius: 10%;
+}
+
+.showcase-container h4 {
+    text-decoration: underline;
+}
